@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Regression]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="arijitsinhaProject2.TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="ErrorValidationsTest(failed)" verbose="0">
+    <classes>
+      <class name="arijitsinhaProject2.tests.ErrorValidation">
+        <methods>
+          <include name="ProductErrorValidation"/>
+          <include name="tearDown"/>
+          <include name="launchingApplication"/>
+        </methods>
+      </class> <!-- arijitsinhaProject2.tests.ErrorValidation -->
+    </classes>
+  </test> <!-- ErrorValidationsTest(failed) -->
+  <test thread-count="5" parallel="tests" name="SubmitOrderTest(failed)" verbose="0">
+    <classes>
+      <class name="arijitsinhaProject2.tests.SubmitOrder">
+        <methods>
+          <include name="tearDown"/>
+          <include name="submitOrder" invocation-numbers="0 1"/>
+          <include name="orderVerification"/>
+          <include name="launchingApplication"/>
+        </methods>
+      </class> <!-- arijitsinhaProject2.tests.SubmitOrder -->
+    </classes>
+  </test> <!-- SubmitOrderTest(failed) -->
+</suite> <!-- Failed suite [Regression] -->

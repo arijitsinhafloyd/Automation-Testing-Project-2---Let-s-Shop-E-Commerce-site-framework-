@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-09T01:44:29 IST" name="Regression" finished-at="2026-05-09T01:45:26 IST" duration-ms="57024">
+    <groups>
+      <group name="Run">
+        <method signature="SubmitOrder.submitOrder(java.util.HashMap)[pri:0, instance:arijitsinhaProject2.tests.SubmitOrder@2d710f1a]" name="submitOrder" class="arijitsinhaProject2.tests.SubmitOrder"/>
+        <method signature="ErrorValidation.LoginErrorValidation()[pri:0, instance:arijitsinhaProject2.tests.ErrorValidation@75d3a5e0]" name="LoginErrorValidation" class="arijitsinhaProject2.tests.ErrorValidation"/>
+      </group> <!-- Run -->
+    </groups>
+    <test started-at="2026-05-09T01:44:29 IST" name="ErrorValidationsTest" finished-at="2026-05-09T01:44:56 IST" duration-ms="26699">
+      <class name="arijitsinhaProject2.tests.ErrorValidation">
+        <test-method is-config="true" signature="launchingApplication()[pri:0, instance:arijitsinhaProject2.tests.ErrorValidation@75d3a5e0]" started-at="2026-05-09T01:44:29 IST" name="launchingApplication" finished-at="2026-05-09T01:44:39 IST" duration-ms="10203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:arijitsinhaProject2.tests.ErrorValidation@75d3a5e0]" started-at="2026-05-09T01:44:39 IST" name="LoginErrorValidation" finished-at="2026-05-09T01:44:40 IST" duration-ms="555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:arijitsinhaProject2.tests.ErrorValidation@75d3a5e0]" started-at="2026-05-09T01:44:40 IST" name="tearDown" finished-at="2026-05-09T01:44:40 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchingApplication()[pri:0, instance:arijitsinhaProject2.tests.ErrorValidation@75d3a5e0]" started-at="2026-05-09T01:44:40 IST" name="launchingApplication" finished-at="2026-05-09T01:44:50 IST" duration-ms="10649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:arijitsinhaProject2.tests.ErrorValidation@75d3a5e0]" started-at="2026-05-09T01:44:50 IST" name="ProductErrorValidation" finished-at="2026-05-09T01:44:55 IST" duration-ms="4177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:arijitsinhaProject2.tests.ErrorValidation@75d3a5e0]" started-at="2026-05-09T01:44:55 IST" name="tearDown" finished-at="2026-05-09T01:44:56 IST" duration-ms="893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- arijitsinhaProject2.tests.ErrorValidation -->
+    </test> <!-- ErrorValidationsTest -->
+    <test started-at="2026-05-09T01:44:29 IST" name="SubmitOrderTest" finished-at="2026-05-09T01:45:26 IST" duration-ms="57024">
+      <class name="arijitsinhaProject2.tests.SubmitOrder">
+        <test-method is-config="true" signature="launchingApplication()[pri:0, instance:arijitsinhaProject2.tests.SubmitOrder@2d710f1a]" started-at="2026-05-09T01:44:29 IST" name="launchingApplication" finished-at="2026-05-09T01:44:39 IST" duration-ms="9234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:arijitsinhaProject2.tests.SubmitOrder@2d710f1a]" started-at="2026-05-09T01:44:39 IST" name="submitOrder" data-provider="getData" finished-at="2026-05-09T01:44:48 IST" duration-ms="9864" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{product2=ADIDAS ORIGINAL, product1=ZARA COAT 3, password=Asdf@1234, email=contact@arijitsinha.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:arijitsinhaProject2.tests.SubmitOrder@2d710f1a]" started-at="2026-05-09T01:44:48 IST" name="tearDown" finished-at="2026-05-09T01:44:50 IST" duration-ms="2013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchingApplication()[pri:0, instance:arijitsinhaProject2.tests.SubmitOrder@2d710f1a]" started-at="2026-05-09T01:44:50 IST" name="launchingApplication" finished-at="2026-05-09T01:45:01 IST" duration-ms="11073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:arijitsinhaProject2.tests.SubmitOrder@2d710f1a]" started-at="2026-05-09T01:45:01 IST" name="submitOrder" data-provider="getData" finished-at="2026-05-09T01:45:06 IST" duration-ms="4678" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{product2=IPHONE 13 PRO, product1=ZARA COAT 3, password=Asdf@1234, email=alpiak@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:arijitsinhaProject2.tests.SubmitOrder@2d710f1a]" started-at="2026-05-09T01:45:06 IST" name="tearDown" finished-at="2026-05-09T01:45:06 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchingApplication()[pri:0, instance:arijitsinhaProject2.tests.SubmitOrder@2d710f1a]" started-at="2026-05-09T01:45:06 IST" name="launchingApplication" finished-at="2026-05-09T01:45:15 IST" duration-ms="8449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingApplication -->
+        <test-method signature="orderVerification(java.util.HashMap)[pri:0, instance:arijitsinhaProject2.tests.SubmitOrder@2d710f1a]" started-at="2026-05-09T01:45:15 IST" name="orderVerification" data-provider="getData" finished-at="2026-05-09T01:45:16 IST" depends-on-methods="arijitsinhaProject2.tests.SubmitOrder.submitOrder" duration-ms="1708" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{product2=ADIDAS ORIGINAL, product1=ZARA COAT 3, password=Asdf@1234, email=contact@arijitsinha.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderVerification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:arijitsinhaProject2.tests.SubmitOrder@2d710f1a]" started-at="2026-05-09T01:45:16 IST" name="tearDown" finished-at="2026-05-09T01:45:16 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchingApplication()[pri:0, instance:arijitsinhaProject2.tests.SubmitOrder@2d710f1a]" started-at="2026-05-09T01:45:16 IST" name="launchingApplication" finished-at="2026-05-09T01:45:25 IST" duration-ms="8282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingApplication -->
+        <test-method signature="orderVerification(java.util.HashMap)[pri:0, instance:arijitsinhaProject2.tests.SubmitOrder@2d710f1a]" started-at="2026-05-09T01:45:25 IST" name="orderVerification" data-provider="getData" finished-at="2026-05-09T01:45:26 IST" depends-on-methods="arijitsinhaProject2.tests.SubmitOrder.submitOrder" duration-ms="1048" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{product2=IPHONE 13 PRO, product1=ZARA COAT 3, password=Asdf@1234, email=alpiak@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderVerification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:arijitsinhaProject2.tests.SubmitOrder@2d710f1a]" started-at="2026-05-09T01:45:26 IST" name="tearDown" finished-at="2026-05-09T01:45:26 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- arijitsinhaProject2.tests.SubmitOrder -->
+    </test> <!-- SubmitOrderTest -->
+  </suite> <!-- Regression -->
+</testng-results>
